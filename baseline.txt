@@ -1,0 +1,1763 @@
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 0
+Text:
+COWBOY WISDOM
+"The water ain't gonna clear up 'til you get the pigs outa the creek!"
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Appeal to authority
+- Loaded Language
+
+--------------------------------------------------
+Predicted Spans:
+--------------------------------------------------
+
+True Spans:
+get the pigs out ##a the creek !
+Technique: Loaded Language
+Start: 14
+End: 22
+cowboy wisdom " the water ain ' t gonna clear up ' til you get the pigs out ##a the creek ! "
+Technique: Appeal to authority
+Start: 0
+End: 23
+--------------------------------------------------
+
+LABEL: Appeal to authority
+Accuracy: 0.817
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Loaded Language
+Accuracy: 0.937
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.817
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 1
+Text:
+WE ARE AT WAR!
+
+There is a complex assault on our presidential election
+with all the multifaceted tentacles of a terrorist organization and operation
+
+2020
+TERRORISM
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Appeal to fear/prejudice
+- Loaded Language
+- Name calling/Labeling
+
+--------------------------------------------------
+Predicted Spans:
+assault
+Technique: Loaded Language
+Start: 9
+End: 10
+terrorist
+Technique: Loaded Language
+Start: 23
+End: 24
+terrorist
+Technique: Name calling/Labeling
+Start: 23
+End: 24
+[PAD]
+Technique: Loaded Language
+Start: 47
+End: 48
+[PAD]
+Technique: Appeal to fear/prejudice
+Start: 48
+End: 49
+[PAD]
+Technique: Loaded Language
+Start: 49
+End: 50
+[PAD]
+Technique: Name calling/Labeling
+Start: 49
+End: 50
+
+Technique: Loaded Language
+Start: 63
+End: 64
+
+Technique: Name calling/Labeling
+Start: 63
+End: 64
+
+Technique: Loaded Language
+Start: 72
+End: 73
+
+Technique: Appeal to fear/prejudice
+Start: 73
+End: 74
+
+Technique: Loaded Language
+Start: 74
+End: 75
+
+Technique: Name calling/Labeling
+Start: 74
+End: 75
+
+Technique: Appeal to fear/prejudice
+Start: 75
+End: 76
+
+Technique: Loaded Language
+Start: 78
+End: 79
+
+Technique: Name calling/Labeling
+Start: 78
+End: 79
+
+Technique: Loaded Language
+Start: 92
+End: 93
+
+Technique: Name calling/Labeling
+Start: 92
+End: 94
+
+Technique: Name calling/Labeling
+Start: 101
+End: 102
+
+Technique: Loaded Language
+Start: 101
+End: 103
+
+Technique: Appeal to fear/prejudice
+Start: 103
+End: 104
+
+Technique: Loaded Language
+Start: 104
+End: 105
+
+Technique: Name calling/Labeling
+Start: 104
+End: 105
+
+Technique: Appeal to fear/prejudice
+Start: 105
+End: 106
+
+Technique: Name calling/Labeling
+Start: 107
+End: 109
+--------------------------------------------------
+
+True Spans:
+war
+Technique: Loaded Language
+Start: 3
+End: 4
+assault on our presidential election
+Technique: Loaded Language
+Start: 9
+End: 14
+multi ##face ##ted tentacles
+Technique: Name calling/Labeling
+Start: 17
+End: 21
+we are at war ! there is a complex assault on our presidential election with all the multi ##face ##ted tentacles of a terrorist organization and operation
+Technique: Appeal to fear/prejudice
+Start: 0
+End: 27
+multi ##face ##ted tentacles of a terrorist organization and operation
+Technique: Loaded Language
+Start: 17
+End: 27
+terrorism
+Technique: Loaded Language
+Start: 28
+End: 29
+--------------------------------------------------
+
+LABEL: Appeal to fear/prejudice
+Accuracy: 0.746
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Loaded Language
+Accuracy: 0.802
+Precision: 0.167
+Recall: 0.118
+F1: 0.138
+
+LABEL: Name calling/Labeling
+Accuracy: 0.881
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.635
+Macro Precision: 0.008
+Macro Recall: 0.006
+Macro F1: 0.007
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 2
+Text:
+By Bullet or Ballot
+Restoration Of The Republic Is Coming !
+
+--------------------------------------------------
+Predicted Techniques:
+- Black-and-white Fallacy/Dictatorship
+- Flag-waving
+- Loaded Language
+
+--------------------------------------------------
+Predicted Spans:
+--------------------------------------------------
+
+True Spans:
+bullet
+Technique: Loaded Language
+Start: 1
+End: 2
+restoration of the republic is coming
+Technique: Flag-waving
+Start: 4
+End: 10
+by bullet or ballot restoration of the republic is coming !
+Technique: Black-and-white Fallacy/Dictatorship
+Start: 0
+End: 11
+--------------------------------------------------
+
+LABEL: Black-and-white Fallacy/Dictatorship
+Accuracy: 0.913
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Flag-waving
+Accuracy: 0.952
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Loaded Language
+Accuracy: 0.992
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.913
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 3
+Text:
+TRUMP'S COUNCIL TO REOPEN AMERICA AFTERA HEALTH CRISIS.
+
+NOT ONE DOCTOR OR PUBLIC HEALTH SPECIALIST IN THE GROUP.
+
+BECAUSE TRUMP DOESN'T WANT ADVICE, HE WANTS AGREEMENT.
+
+--------------------------------------------------
+Predicted Techniques:
+- Causal Oversimplification
+- Smears
+
+--------------------------------------------------
+Predicted Spans:
+council to re ##open america after ##a health crisis
+Technique: Smears
+Start: 3
+End: 12
+one doctor
+Technique: Smears
+Start: 14
+End: 16
+public health specialist in the group
+Technique: Smears
+Start: 17
+End: 23
+because
+Technique: Smears
+Start: 24
+End: 25
+doesn
+Technique: Smears
+Start: 26
+End: 27
+t
+Technique: Smears
+Start: 28
+End: 29
+advice
+Technique: Smears
+Start: 30
+End: 31
+wants agreement
+Technique: Smears
+Start: 33
+End: 35
+
+Technique: Smears
+Start: 37
+End: 125
+--------------------------------------------------
+
+True Spans:
+because trump doesn ' t want advice , he wants agreement
+Technique: Causal Oversimplification
+Start: 24
+End: 35
+trump ' s council to re ##open america after ##a health crisis . not one doctor or public health specialist in the group . because trump doesn ' t want advice , he wants agreement
+Technique: Smears
+Start: 0
+End: 35
+--------------------------------------------------
+
+LABEL: Causal Oversimplification
+Accuracy: 0.913
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Smears
+Accuracy: 0.198
+Precision: 0.205
+Recall: 0.657
+F1: 0.313
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.151
+Macro Precision: 0.010
+Macro Recall: 0.033
+Macro F1: 0.016
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 4
+Text:
+TRYING TO FIGURE OUT HOW BIDEN WON A RECORD LOW OF ONLY 16.7% OF ALL U.S. COUNTIES
+
+YET SUPPOSEDLY WON THE ELECTION WITH THE MOST VOTES IN HISTORY
+
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Doubt
+
+--------------------------------------------------
+Predicted Spans:
+out how
+Technique: Doubt
+Start: 3
+End: 5
+only
+Technique: Smears
+Start: 12
+End: 13
+7
+Technique: Smears
+Start: 15
+End: 16
+[PAD]
+Technique: Doubt
+Start: 37
+End: 38
+[PAD]
+Technique: Doubt
+Start: 39
+End: 40
+[PAD]
+Technique: Doubt
+Start: 50
+End: 51
+[PAD]
+Technique: Doubt
+Start: 58
+End: 59
+
+Technique: Smears
+Start: 68
+End: 69
+
+Technique: Smears
+Start: 70
+End: 71
+
+Technique: Doubt
+Start: 87
+End: 88
+
+Technique: Doubt
+Start: 98
+End: 99
+
+Technique: Smears
+Start: 98
+End: 99
+
+Technique: Smears
+Start: 100
+End: 101
+--------------------------------------------------
+
+True Spans:
+trying to figure out how bid ##en won a record low of only 16 . 7 % of all u . s . counties yet supposedly won the election with the most votes in history
+Technique: Doubt
+Start: 0
+End: 35
+--------------------------------------------------
+
+LABEL: Doubt
+Accuracy: 0.690
+Precision: 0.250
+Recall: 0.057
+F1: 0.093
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.667
+Macro Precision: 0.013
+Macro Recall: 0.003
+Macro F1: 0.005
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 5
+Text:
+I will never concede!
+
+NO WAY IN HELL BIDEN WON!
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Exaggeration/Minimisation
+- Loaded Language
+
+--------------------------------------------------
+Predicted Spans:
+--------------------------------------------------
+
+True Spans:
+no way in hell
+Technique: Loaded Language
+Start: 6
+End: 10
+no way in hell bid ##en won !
+Technique: Exaggeration/Minimisation
+Start: 6
+End: 14
+--------------------------------------------------
+
+LABEL: Exaggeration/Minimisation
+Accuracy: 0.937
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Loaded Language
+Accuracy: 0.968
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.937
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 6
+Text:
+By Bullet or Ballot
+Restoration Of The Republic Is Coming !
+
+--------------------------------------------------
+Predicted Techniques:
+- Black-and-white Fallacy/Dictatorship
+- Flag-waving
+- Loaded Language
+
+--------------------------------------------------
+Predicted Spans:
+--------------------------------------------------
+
+True Spans:
+bullet
+Technique: Loaded Language
+Start: 1
+End: 2
+restoration of the republic is coming
+Technique: Flag-waving
+Start: 4
+End: 10
+by bullet or ballot restoration of the republic is coming !
+Technique: Black-and-white Fallacy/Dictatorship
+Start: 0
+End: 11
+--------------------------------------------------
+
+LABEL: Black-and-white Fallacy/Dictatorship
+Accuracy: 0.913
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Flag-waving
+Accuracy: 0.952
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Loaded Language
+Accuracy: 0.992
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.913
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 7
+Text:
+'Strike me down and you'll make me even more powerful'
+
+--------------------------------------------------
+Predicted Techniques:
+- Glittering generalities (Virtue)
+- Loaded Language
+
+--------------------------------------------------
+Predicted Spans:
+--------------------------------------------------
+
+True Spans:
+strike me down
+Technique: Loaded Language
+Start: 1
+End: 4
+strike me down and you ' ll make me even more powerful
+Technique: Glittering generalities (Virtue)
+Start: 1
+End: 13
+--------------------------------------------------
+
+LABEL: Glittering generalities (Virtue)
+Accuracy: 0.905
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Loaded Language
+Accuracy: 0.976
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.905
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 8
+Text:
+WE ARE AT WAR!
+
+There is a complex assault on our presidential election
+with all the multifaceted tentacles of a terrorist organization and operation
+
+2020
+TERRORISM
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Appeal to fear/prejudice
+- Loaded Language
+- Name calling/Labeling
+
+--------------------------------------------------
+Predicted Spans:
+assault
+Technique: Loaded Language
+Start: 9
+End: 10
+terrorist
+Technique: Loaded Language
+Start: 23
+End: 24
+terrorist
+Technique: Name calling/Labeling
+Start: 23
+End: 24
+[PAD]
+Technique: Loaded Language
+Start: 47
+End: 48
+[PAD]
+Technique: Appeal to fear/prejudice
+Start: 48
+End: 49
+[PAD]
+Technique: Loaded Language
+Start: 49
+End: 50
+[PAD]
+Technique: Name calling/Labeling
+Start: 49
+End: 50
+
+Technique: Loaded Language
+Start: 63
+End: 64
+
+Technique: Name calling/Labeling
+Start: 63
+End: 64
+
+Technique: Loaded Language
+Start: 72
+End: 73
+
+Technique: Appeal to fear/prejudice
+Start: 73
+End: 74
+
+Technique: Loaded Language
+Start: 74
+End: 75
+
+Technique: Name calling/Labeling
+Start: 74
+End: 75
+
+Technique: Appeal to fear/prejudice
+Start: 75
+End: 76
+
+Technique: Loaded Language
+Start: 78
+End: 79
+
+Technique: Name calling/Labeling
+Start: 78
+End: 79
+
+Technique: Loaded Language
+Start: 92
+End: 93
+
+Technique: Name calling/Labeling
+Start: 92
+End: 94
+
+Technique: Name calling/Labeling
+Start: 101
+End: 102
+
+Technique: Loaded Language
+Start: 101
+End: 103
+
+Technique: Appeal to fear/prejudice
+Start: 103
+End: 104
+
+Technique: Loaded Language
+Start: 104
+End: 105
+
+Technique: Name calling/Labeling
+Start: 104
+End: 105
+
+Technique: Appeal to fear/prejudice
+Start: 105
+End: 106
+
+Technique: Name calling/Labeling
+Start: 107
+End: 109
+--------------------------------------------------
+
+True Spans:
+war
+Technique: Loaded Language
+Start: 3
+End: 4
+assault on our presidential election
+Technique: Loaded Language
+Start: 9
+End: 14
+multi ##face ##ted tentacles
+Technique: Name calling/Labeling
+Start: 17
+End: 21
+we are at war ! there is a complex assault on our presidential election with all the multi ##face ##ted tentacles of a terrorist organization and operation
+Technique: Appeal to fear/prejudice
+Start: 0
+End: 27
+multi ##face ##ted tentacles of a terrorist organization and operation
+Technique: Loaded Language
+Start: 17
+End: 27
+terrorism
+Technique: Loaded Language
+Start: 28
+End: 29
+--------------------------------------------------
+
+LABEL: Appeal to fear/prejudice
+Accuracy: 0.746
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Loaded Language
+Accuracy: 0.802
+Precision: 0.167
+Recall: 0.118
+F1: 0.138
+
+LABEL: Name calling/Labeling
+Accuracy: 0.881
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.635
+Macro Precision: 0.008
+Macro Recall: 0.006
+Macro F1: 0.007
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 9
+Text:
+LIBERALS WOULD RATHER DIE THAN TRY HYDROXYCHLOROQUINE?
+LET THEM. 
+IT'S CALLED NATURAL SELECTION
+
+--------------------------------------------------
+Predicted Techniques:
+- Misrepresentation of Someone's Position (Straw Man)
+- Smears
+- Thought-terminating cliché
+
+--------------------------------------------------
+Predicted Spans:
+##ch
+Technique: Smears
+Start: 8
+End: 9
+[PAD]
+Technique: Whataboutism
+Start: 36
+End: 37
+[PAD] [PAD]
+Technique: Whataboutism
+Start: 39
+End: 41
+[PAD]
+Technique: Whataboutism
+Start: 61
+End: 62
+
+Technique: Smears
+Start: 63
+End: 64
+
+Technique: Whataboutism
+Start: 64
+End: 66
+
+Technique: Smears
+Start: 89
+End: 90
+
+Technique: Whataboutism
+Start: 91
+End: 92
+
+Technique: Whataboutism
+Start: 93
+End: 96
+--------------------------------------------------
+
+True Spans:
+liberals would rather die than try hydro ##xy ##ch ##lor ##o ##quin ##e ?
+Technique: Misrepresentation of Someone's Position (Straw Man)
+Start: 0
+End: 14
+liberals would rather die than try hydro ##xy ##ch ##lor ##o ##quin ##e ? let them . it ' s called natural selection
+Technique: Smears
+Start: 0
+End: 23
+let them . it ' s called natural selection
+Technique: Thought-terminating cliché
+Start: 14
+End: 23
+--------------------------------------------------
+
+LABEL: Misrepresentation of Someone's Position (Straw Man)
+Accuracy: 0.889
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Smears
+Accuracy: 0.810
+Precision: 0.333
+Recall: 0.043
+F1: 0.077
+
+LABEL: Thought-terminating cliché
+Accuracy: 0.929
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.722
+Macro Precision: 0.017
+Macro Recall: 0.002
+Macro F1: 0.004
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 10
+Text:
+The Democrats New America
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Name calling/Labeling
+- Slogans
+
+--------------------------------------------------
+Predicted Spans:
+democrats
+Technique: Smears
+Start: 1
+End: 2
+--------------------------------------------------
+
+True Spans:
+the democrats new america
+Technique: Name calling/Labeling
+Start: 0
+End: 4
+the democrats new america
+Technique: Slogans
+Start: 0
+End: 4
+--------------------------------------------------
+
+LABEL: Name calling/Labeling
+Accuracy: 0.968
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Slogans
+Accuracy: 0.968
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.968
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 11
+Text:
+"We put together I think the most extensive and inclusive voter fraud organization in the history of American politics."
+-Joe Biden
+
+--------------------------------------------------
+Predicted Techniques:
+- Exaggeration/Minimisation
+- Loaded Language
+- Name calling/Labeling
+- Obfuscation, Intentional vagueness, Confusion
+
+--------------------------------------------------
+Predicted Spans:
+organization
+Technique: Smears
+Start: 13
+End: 14
+in
+Technique: Exaggeration/Minimisation
+Start: 14
+End: 15
+history
+Technique: Exaggeration/Minimisation
+Start: 16
+End: 17
+[PAD]
+Technique: Smears
+Start: 40
+End: 41
+[PAD]
+Technique: Smears
+Start: 42
+End: 43
+[PAD]
+Technique: Exaggeration/Minimisation
+Start: 44
+End: 45
+[PAD] [PAD]
+Technique: Smears
+Start: 48
+End: 50
+
+Technique: Smears
+Start: 66
+End: 69
+
+Technique: Exaggeration/Minimisation
+Start: 69
+End: 70
+
+Technique: Exaggeration/Minimisation
+Start: 71
+End: 72
+
+Technique: Smears
+Start: 73
+End: 74
+
+Technique: Smears
+Start: 95
+End: 98
+
+Technique: Exaggeration/Minimisation
+Start: 99
+End: 100
+
+Technique: Exaggeration/Minimisation
+Start: 101
+End: 102
+
+Technique: Smears
+Start: 103
+End: 104
+
+Technique: Smears
+Start: 125
+End: 125
+--------------------------------------------------
+
+True Spans:
+voter fraud
+Technique: Loaded Language
+Start: 11
+End: 13
+the most extensive and inclusive voter fraud organization in the history of american politics
+Technique: Exaggeration/Minimisation
+Start: 6
+End: 20
+the most extensive and inclusive voter fraud organization in the history of american politics
+Technique: Name calling/Labeling
+Start: 6
+End: 20
+" we put together i think the most extensive and inclusive voter fraud organization in the history of american politics . " - joe bid ##en
+Technique: Obfuscation, Intentional vagueness, Confusion
+Start: 0
+End: 26
+--------------------------------------------------
+
+LABEL: Exaggeration/Minimisation
+Accuracy: 0.865
+Precision: 0.286
+Recall: 0.143
+F1: 0.190
+
+LABEL: Loaded Language
+Accuracy: 0.984
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Name calling/Labeling
+Accuracy: 0.889
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Obfuscation, Intentional vagueness, Confusion
+Accuracy: 0.794
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.651
+Macro Precision: 0.014
+Macro Recall: 0.007
+Macro F1: 0.010
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 12
+Text:
+IF THEY ARE SO SURE THEY WON WHY HASNT KAMALA RESIGNED HER SENATE SEAT?
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Doubt
+- Presenting Irrelevant Data (Red Herring)
+
+--------------------------------------------------
+Predicted Spans:
+hasn ##t kamal ##a
+Technique: Smears
+Start: 8
+End: 12
+her
+Technique: Smears
+Start: 13
+End: 14
+[PAD] [PAD] [PAD]
+Technique: Smears
+Start: 38
+End: 41
+[PAD] [PAD]
+Technique: Smears
+Start: 43
+End: 45
+
+Technique: Smears
+Start: 63
+End: 67
+
+Technique: Smears
+Start: 68
+End: 70
+
+Technique: Smears
+Start: 80
+End: 81
+
+Technique: Smears
+Start: 93
+End: 100
+
+Technique: Smears
+Start: 118
+End: 119
+
+Technique: Smears
+Start: 120
+End: 121
+
+Technique: Smears
+Start: 123
+End: 125
+--------------------------------------------------
+
+True Spans:
+if they are so sure they won why hasn ##t kamal ##a resigned her senate seat ?
+Technique: Doubt
+Start: 0
+End: 17
+if they are so sure they won why hasn ##t kamal ##a resigned her senate seat ?
+Technique: Presenting Irrelevant Data (Red Herring)
+Start: 0
+End: 17
+--------------------------------------------------
+
+LABEL: Doubt
+Accuracy: 0.865
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Presenting Irrelevant Data (Red Herring)
+Accuracy: 0.865
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.675
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 13
+Text:
+People are so quick to forget.
+
+Wedding bands that were removed from Holocaust victims prior to being executed, 1945. 
+Each ring represents a destroyed family. 
+Never forget, Nazis tore down statues.
+Banned free speech.
+Blamed economic hardships on one group of people. Instituted gun control.
+Sound Familiar?
+
+--------------------------------------------------
+Predicted Techniques:
+- Loaded Language
+- Reductio ad hitlerum
+
+--------------------------------------------------
+Predicted Spans:
+holocaust victims
+Technique: Loaded Language
+Start: 13
+End: 15
+being executed
+Technique: Loaded Language
+Start: 17
+End: 19
+destroyed
+Technique: Loaded Language
+Start: 26
+End: 27
+nazis tore down statues
+Technique: Loaded Language
+Start: 32
+End: 36
+banned free speech
+Technique: Loaded Language
+Start: 37
+End: 40
+hardship ##s
+Technique: Loaded Language
+Start: 43
+End: 45
+gun control
+Technique: Loaded Language
+Start: 52
+End: 54
+
+Technique: Loaded Language
+Start: 62
+End: 66
+
+Technique: Loaded Language
+Start: 67
+End: 70
+
+Technique: Appeal to fear/prejudice
+Start: 73
+End: 74
+
+Technique: Loaded Language
+Start: 71
+End: 79
+
+Technique: Loaded Language
+Start: 87
+End: 88
+
+Technique: Loaded Language
+Start: 89
+End: 90
+
+Technique: Loaded Language
+Start: 96
+End: 99
+
+Technique: Loaded Language
+Start: 100
+End: 104
+
+Technique: Loaded Language
+Start: 109
+End: 112
+
+Technique: Loaded Language
+Start: 115
+End: 116
+
+Technique: Loaded Language
+Start: 117
+End: 121
+
+Technique: Loaded Language
+Start: 122
+End: 125
+--------------------------------------------------
+
+True Spans:
+holocaust victims
+Technique: Loaded Language
+Start: 13
+End: 15
+executed
+Technique: Loaded Language
+Start: 18
+End: 19
+destroyed family
+Technique: Loaded Language
+Start: 26
+End: 28
+banned free speech
+Technique: Loaded Language
+Start: 37
+End: 40
+instituted gun control
+Technique: Loaded Language
+Start: 51
+End: 54
+never forget , nazis tore down statues . banned free speech . blamed economic hardship ##s on one group of people . instituted gun control . sound familiar ?
+Technique: Reductio ad hitlerum
+Start: 29
+End: 58
+--------------------------------------------------
+
+LABEL: Loaded Language
+Accuracy: 0.643
+Precision: 0.173
+Recall: 0.818
+F1: 0.286
+
+LABEL: Reductio ad hitlerum
+Accuracy: 0.770
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.468
+Macro Precision: 0.009
+Macro Recall: 0.041
+Macro F1: 0.014
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 14
+Text:
+9-11 NEVER FORGET
+
+11-3 NEVER FORGET
+
+--------------------------------------------------
+Predicted Techniques:
+- Repetition
+- Slogans
+
+--------------------------------------------------
+Predicted Spans:
+--------------------------------------------------
+
+True Spans:
+9 - 11 never forget
+Technique: Slogans
+Start: 0
+End: 5
+never forget
+Technique: Repetition
+Start: 8
+End: 10
+--------------------------------------------------
+
+LABEL: Repetition
+Accuracy: 0.984
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Slogans
+Accuracy: 0.960
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.944
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 15
+Text:
+The Democrats New America
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Name calling/Labeling
+- Slogans
+
+--------------------------------------------------
+Predicted Spans:
+democrats
+Technique: Smears
+Start: 1
+End: 2
+--------------------------------------------------
+
+True Spans:
+the democrats new america
+Technique: Name calling/Labeling
+Start: 0
+End: 4
+the democrats new america
+Technique: Slogans
+Start: 0
+End: 4
+--------------------------------------------------
+
+LABEL: Name calling/Labeling
+Accuracy: 0.968
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Slogans
+Accuracy: 0.968
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.968
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 16
+Text:
+HYPOCRISY MUCH?!
+Macy's Thanksgiving Day Parade to March On Despite Pandemic
+
+Businesses Are Closing Permanently, People Are Losing Everything!
+Let's Have A Parade!
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Loaded Language
+- Smears
+- Whataboutism
+
+--------------------------------------------------
+Predicted Spans:
+##oc
+Technique: Smears
+Start: 2
+End: 3
+##ris
+Technique: Name calling/Labeling
+Start: 3
+End: 4
+h ##yp ##oc ##ris ##y
+Technique: Loaded Language
+Start: 0
+End: 5
+pan
+Technique: Loaded Language
+Start: 18
+End: 19
+##mic
+Technique: Loaded Language
+Start: 20
+End: 21
+[PAD]
+Technique: Loaded Language
+Start: 48
+End: 49
+[PAD] [PAD]
+Technique: Loaded Language
+Start: 56
+End: 58
+[PAD]
+Technique: Smears
+Start: 57
+End: 58
+
+Technique: Smears
+Start: 72
+End: 73
+
+Technique: Loaded Language
+Start: 73
+End: 74
+
+Technique: Smears
+Start: 75
+End: 76
+
+Technique: Loaded Language
+Start: 86
+End: 87
+
+Technique: Smears
+Start: 86
+End: 87
+
+Technique: Loaded Language
+Start: 103
+End: 104
+
+Technique: Smears
+Start: 105
+End: 106
+--------------------------------------------------
+
+True Spans:
+h ##yp ##oc ##ris ##y
+Technique: Loaded Language
+Start: 0
+End: 5
+h ##yp ##oc ##ris ##y much ? ! macy ' s thanksgiving day parade to march on despite pan ##de ##mic businesses are closing permanently , people are losing everything !
+Technique: Smears
+Start: 0
+End: 31
+macy ' s thanksgiving day parade to march on despite pan ##de ##mic businesses are closing permanently , people are losing everything !
+Technique: Whataboutism
+Start: 8
+End: 31
+--------------------------------------------------
+
+LABEL: Loaded Language
+Accuracy: 0.937
+Precision: 0.385
+Recall: 1.000
+F1: 0.556
+
+LABEL: Smears
+Accuracy: 0.722
+Precision: 0.167
+Recall: 0.032
+F1: 0.054
+
+LABEL: Whataboutism
+Accuracy: 0.817
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.690
+Macro Precision: 0.028
+Macro Recall: 0.052
+Macro F1: 0.030
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 17
+Text:
+He's been telling us for months about election fraud...
+Do you really believe he hasn't been preparing for this moment???
+3..2.. 1 ....Checkmate!!
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Doubt
+- Loaded Language
+- Thought-terminating cliché
+
+--------------------------------------------------
+Predicted Spans:
+
+Technique: Doubt
+Start: 75
+End: 76
+
+Technique: Doubt
+Start: 98
+End: 103
+--------------------------------------------------
+
+True Spans:
+election fraud
+Technique: Loaded Language
+Start: 9
+End: 11
+do you really believe he hasn ' t been preparing for this moment ? ? ?
+Technique: Doubt
+Start: 14
+End: 30
+check ##mate ! !
+Technique: Thought-terminating cliché
+Start: 41
+End: 45
+--------------------------------------------------
+
+LABEL: Doubt
+Accuracy: 0.825
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Loaded Language
+Accuracy: 0.984
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Thought-terminating cliché
+Accuracy: 0.968
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.778
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 18
+Text:
+HYPOCRISY MUCH?!
+Macy's Thanksgiving Day Parade to March On Despite Pandemic
+
+Businesses Are Closing Permanently, People Are Losing Everything!
+Let's Have A Parade!
+
+
+--------------------------------------------------
+Predicted Techniques:
+- Loaded Language
+- Smears
+- Whataboutism
+
+--------------------------------------------------
+Predicted Spans:
+##oc
+Technique: Smears
+Start: 2
+End: 3
+##ris
+Technique: Name calling/Labeling
+Start: 3
+End: 4
+h ##yp ##oc ##ris ##y
+Technique: Loaded Language
+Start: 0
+End: 5
+pan
+Technique: Loaded Language
+Start: 18
+End: 19
+##mic
+Technique: Loaded Language
+Start: 20
+End: 21
+[PAD]
+Technique: Loaded Language
+Start: 48
+End: 49
+[PAD] [PAD]
+Technique: Loaded Language
+Start: 56
+End: 58
+[PAD]
+Technique: Smears
+Start: 57
+End: 58
+
+Technique: Smears
+Start: 72
+End: 73
+
+Technique: Loaded Language
+Start: 73
+End: 74
+
+Technique: Smears
+Start: 75
+End: 76
+
+Technique: Loaded Language
+Start: 86
+End: 87
+
+Technique: Smears
+Start: 86
+End: 87
+
+Technique: Loaded Language
+Start: 103
+End: 104
+
+Technique: Smears
+Start: 105
+End: 106
+--------------------------------------------------
+
+True Spans:
+h ##yp ##oc ##ris ##y
+Technique: Loaded Language
+Start: 0
+End: 5
+h ##yp ##oc ##ris ##y much ? ! macy ' s thanksgiving day parade to march on despite pan ##de ##mic businesses are closing permanently , people are losing everything !
+Technique: Smears
+Start: 0
+End: 31
+macy ' s thanksgiving day parade to march on despite pan ##de ##mic businesses are closing permanently , people are losing everything !
+Technique: Whataboutism
+Start: 8
+End: 31
+--------------------------------------------------
+
+LABEL: Loaded Language
+Accuracy: 0.937
+Precision: 0.385
+Recall: 1.000
+F1: 0.556
+
+LABEL: Smears
+Accuracy: 0.722
+Precision: 0.167
+Recall: 0.032
+F1: 0.054
+
+LABEL: Whataboutism
+Accuracy: 0.817
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.690
+Macro Precision: 0.028
+Macro Recall: 0.052
+Macro F1: 0.030
+
+--------------------------------------------------
+--------------------------------------------------
+Example ID: 19
+Text:
+What do AOC, Pelosi, McConnell, and Pence all have in common?
+They know the COVID vaccine is safe and effective.
+
+--------------------------------------------------
+Predicted Techniques:
+- Appeal to authority
+- Loaded Language
+- Name calling/Labeling
+- Bandwagon
+
+--------------------------------------------------
+Predicted Spans:
+--------------------------------------------------
+
+True Spans:
+what do ao ##c , pe ##los ##i , mcconnell , and pen ##ce all have in common ? they know the co ##vid vaccine is safe and effective
+Technique: Appeal to authority
+Start: 0
+End: 29
+safe and effective
+Technique: Loaded Language
+Start: 26
+End: 29
+co ##vid vaccine is safe and effective
+Technique: Name calling/Labeling
+Start: 22
+End: 29
+what do ao ##c , pe ##los ##i , mcconnell , and pen ##ce all have in common ? they know the co ##vid vaccine is safe and effective
+Technique: Bandwagon
+Start: 0
+End: 29
+--------------------------------------------------
+
+LABEL: Appeal to authority
+Accuracy: 0.770
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Loaded Language
+Accuracy: 0.976
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Name calling/Labeling
+Accuracy: 0.944
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+LABEL: Bandwagon
+Accuracy: 0.770
+Precision: 0.000
+Recall: 0.000
+F1: 0.000
+
+--------------------------------------------------
+Macro Metrics:
+Accuracy: 0.770
+Macro Precision: 0.000
+Macro Recall: 0.000
+Macro F1: 0.000
+
